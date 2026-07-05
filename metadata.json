@@ -1,0 +1,6 @@
+{
+  "name": "ProjectForge AI",
+  "description": "From Idea to Engineering Blueprint. A world-class companion for engineering students to turn raw project ideas into comprehensive technical blueprints.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

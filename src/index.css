@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary-bg: #FAF8F5;
+  --color-primary-accent: #C97B3D;
+  --color-dark-accent: #A8642E;
+  --color-black: #222222;
+  --color-border-custom: #E8E3DB;
+  --color-white: #FFFFFF;
+  
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Poppins', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Base custom styles to guarantee premium visual rhythm */
+body {
+  background-color: #FAF8F5;
+  color: #222222;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom minimal scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E8E3DB;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C97B3D;
+}
+
+/* Smooth custom selections */
+::selection {
+  background-color: rgba(201, 123, 61, 0.15);
+  color: #A8642E;
+}
